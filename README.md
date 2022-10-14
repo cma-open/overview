@@ -19,7 +19,7 @@ flowchart TB
     cma-training
     tools-->cmadata
     B
-     click B "https://www.github.com" "This is a tooltip for a link" _blank
+     click B "https://www.github.com" "This is a tooltip for a link"
     end
 ```
 
@@ -30,6 +30,7 @@ Code repo content
 overview
 - used for 
 - independant from other repos
+- host development plan in the wiki
 
 cmatools
 - used for
