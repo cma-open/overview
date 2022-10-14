@@ -42,11 +42,19 @@ overview
 - host development plan in the wiki
 
 cmatools
+- https://github.com/cma-open/cmatools
 - used for
+- acts as a template (easily create new repos with this structure and starting content)
 - used by 
     - a
     - b 
 
+---
+
+WIP and next steps
+
+science
+- new simple template "science" project
 
 
 
