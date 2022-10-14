@@ -7,7 +7,6 @@ Click links in the chart below to view the repos (subject to permissions for the
 Use of common dependency repos (tools, cmatools) by exemplar projects (both public and private)
 
 
-
 ```mermaid
 flowchart TB
  subgraph Public
@@ -29,7 +28,13 @@ flowchart TB
 
 ---
 
-Code repo content
+# Key documents
+
+- plan
+- other
+
+# Organisation repository list and contents
+
 
 overview
 - used for 
