@@ -1,6 +1,8 @@
-# overview
-Overview repo and public pages to highlight organisation content
+# Overview
 
+Overview repository hosting this readme and content relating to the entire cma-open organisation content
+
+Click links in the chart below to view the repos (subject to permissions for the private repos)
 
 
 
