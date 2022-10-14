@@ -4,11 +4,14 @@ Overview repository hosting this readme and content relating to the entire cma-o
 
 Click links in the chart below to view the repos (subject to permissions for the private repos)
 
+Use of common dependency repos (tools, cmatools) by exemplar projects (both public and private)
+
 
 
 ```mermaid
 flowchart TB
  subgraph Public
+    workflows-->cmatools
     cmatools-->cmascience
     cmatools-->simple
     overview
@@ -37,4 +40,8 @@ cmatools
 - used by 
     - a
     - b 
+
+
+
+
 
