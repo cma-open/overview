@@ -17,6 +17,6 @@ flowchart TB
     cma-training
     tools-->cmadata
     B
-     click B "https://www.github.com" "This is a tooltip for a link"
+     click B "https://www.github.com" "This is a tooltip for a link" _blank
     end
 ```
