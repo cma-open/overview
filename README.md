@@ -12,7 +12,7 @@ Use of common dependency repos (tools, cmatools) by exemplar projects (both publ
 flowchart TB
  subgraph Public
     workflows-->cmatools
-    workflows--.tools
+    workflows-->tools
     cmatools-->cmascience
     cmatools-->simple
     overview
