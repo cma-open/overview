@@ -41,6 +41,9 @@ overview
 - independant from other repos
 - host development plan in the wiki
 
+workflows
+- shared github workflows actions
+
 cmatools
 - https://github.com/cma-open/cmatools
 - used for
