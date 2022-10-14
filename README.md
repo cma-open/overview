@@ -5,7 +5,7 @@ Overview repo and public pages to highlight organisation content
 
 
 ```mermaid
-
+flowchart TB
  subgraph Public
     cmatools-->cmascience
     cmatools-->simple
