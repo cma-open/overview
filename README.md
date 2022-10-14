@@ -5,14 +5,18 @@ Overview repo and public pages to highlight organisation content
 
 
 ```mermaid
-sequenceDiagram
-    participant dotcom
-    participant iframe
-    participant viewscreen
-    dotcom->>iframe: loads html w/ iframe url
-    iframe->>viewscreen: request template
-    viewscreen->>iframe: html & javascript
-    iframe->>dotcom: iframe ready
-    dotcom->>iframe: set mermaid data on iframe
-    iframe->>iframe: render mermaid
+
+ subgraph Public
+    cmatools-->cmascience
+    cmatools-->simple
+    overview
+    end
+    subgraph Private
+    tools-->|dependency|science-alt
+    tools-->science
+    cma-training
+    tools-->cmadata
+    B
+     click B "https://www.github.com" "This is a tooltip for a link"
+    end
 ```
