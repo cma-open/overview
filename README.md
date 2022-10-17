@@ -21,6 +21,7 @@ flowchart TB
     subgraph Private
     workflows-->tools
     tools-->|dependency|science-alt
+      click science-alt "https://github.com/cma-open/science-alt" "Link to scient-alt repo"
     tools-->science
     cma-training
       click cma-training "https://github.com/cma-open/cma-training" "Link to training repo"
@@ -47,12 +48,14 @@ workflows repo
 - https://github.com/cma-open/workflows
 - used to provide shared action workflows to other repos
 
-cma-training rep
+cma-training repo
+- https://github.com/cma-open/cma-training
 - used to hold code course progress
 - host code snippets
 - function, class and module code examples
 
 science-alt repo
+- https://github.com/cma-open/science-alt
 - used to illustrate interaction between core and dependency repos (private)
 - simple python package (core)
 - example use only (not for project use)
