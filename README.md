@@ -52,6 +52,19 @@ cmatools
     - a
     - b 
 
+
+---
+
+Summary
+
+
+| repo | core use | dependency use | wiki \
+| --------------- | --------------- | --------------- | --------------- |
+| overview  | Row 1 Column 2 | Row 1 Column 3 | no |
+| workflows | Row 2 Column 2 | Row 2 Column 3 | no |
+| cma-training | Row 3 Column 2 | Row 3 Column 3 | Yes |
+
+
 ---
 
 WIP and next steps
