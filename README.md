@@ -14,6 +14,7 @@ flowchart TB
     cmatools-->cmascience
     cmatools-->simple
     overview
+      click overview "https://github.com/cma-open/overview" "Link to overview repo"
     end
     subgraph Private
     workflows-->tools
@@ -36,6 +37,7 @@ flowchart TB
 # Organisation repository list and contents
 
 overview repo
+- https://github.com/cma-open/overview
 - used for project planning and organisation overview
 - independant from other repos
 - host development plan in the wiki
