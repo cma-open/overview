@@ -114,6 +114,7 @@ Summary
 | science         | Yes             |                 |                 |          |
 | tools           |                 | Yes             |                 |          |
 | cmadata         |                 | Yes             |                 |  WIP     |
+| cmascience      |                 | Yes             | WIP             |  WIP     |
 | cmatools        |                 | Yes             | Yes             |  WIP     |
 | simple          | Yes             |                 |                 |  WIP     |
 
