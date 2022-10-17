@@ -18,6 +18,7 @@ flowchart TB
     overview
       click overview "https://github.com/cma-open/overview" "Link to overview repo"
       click cmascience "https://github.com/cma-open/cmascience" "Link to cmascience repo"
+    simple
       click simple "https://github.com/cma-open/simple" "Link to simple repo"
     end
     subgraph Private
