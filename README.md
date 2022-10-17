@@ -18,6 +18,7 @@ flowchart TB
     click cmatools "https://github.com/cma-open/cmatools" "Link to cmatools"
     overview
       click overview "https://github.com/cma-open/overview" "Link to overview repo"
+      click cmascience "https://github.com/cma-open/cmascience" "Link to cmascience repo"
     end
     subgraph Private
     workflows-->tools
@@ -29,6 +30,7 @@ flowchart TB
     cma-training
       click cma-training "https://github.com/cma-open/cma-training" "Link to training repo"
     tools-->cmadata
+    click cmadata "https://github.com/cma-open/cmadata" "Link to cmadata repo"
     end
 ```
 
@@ -90,6 +92,7 @@ cmatools repo (TEMPLATE WIP)
     - camsimple
 
 cmadata repo
+- https://github.com/cma-open/cmadata
 - used to provide synthetic data for testing or development
 - python package (core or dependency)
 - can be used as an independant package
@@ -99,6 +102,7 @@ cmadata repo
     - WIP 
 
 cmascience repo (TEMPLATE WIP)
+- https://github.com/cma-open/cmascience
 - used to illustrate interaction between core and dependency repos (public)
 - mimics a simple science based project package 
 - python package (core)
