@@ -23,6 +23,7 @@ flowchart TB
     tools-->|dependency|science-alt
     tools-->science
     cma-training
+      click cma-training "https://github.com/cma-open/cma-training" "Link to training repo"
     tools-->cmadata
     end
 ```
