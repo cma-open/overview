@@ -23,8 +23,6 @@ flowchart TB
     tools-->science
     cma-training
     tools-->cmadata
-    B
-     click B "https://www.github.com" "This is a tooltip for a link"
     end
 ```
 
