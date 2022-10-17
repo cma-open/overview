@@ -35,22 +35,69 @@ flowchart TB
 
 # Organisation repository list and contents
 
-
-overview
-- used for 
+overview repo
+- used for project planning and organisation overview
 - independant from other repos
 - host development plan in the wiki
 
-workflows
-- shared github workflows actions
+workflows repo
+- used to provide shared action workflows to other repos
 
-cmatools
+cma-training rep
+- used to hold code course progress
+- host code snippets
+- function, class and module code examples
+
+science-alt repo
+- used to illustrate interaction between core and dependency repos (private)
+- simple python package (core)
+- example use only (not for project use)
+
+science repo
+- used to illustrate interaction between core and dependency repos (private)
+- simple python package (core)
+- example use only (not for project use)
+
+tools repo
+- used to illustrate interaction between core and dependency repos (private)
+- simple python package (dependency)
+- not for use as an independant package
+- example use only (not for project use)
+
+cmatools repo (TEMPLATE WIP)
 - https://github.com/cma-open/cmatools
-- used for
+- used to illustrate interaction between core and dependency repos (public)
+- python package hosting commonly used tools (dependency)
+- not for use as an independant package 
 - acts as a template (easily create new repos with this structure and starting content)
+- example use only (not for project use)
+- (conversion / extend for use by projects - WIP)
 - used by 
-    - a
-    - b 
+    - cmadata
+    - cmascience
+    - camsimple
+
+cmadata repo
+- used to provide synthetic data for testing or development
+- python package (core or dependency)
+- can be used as an independant package
+- example use only (not for project use)
+- (conversion / extend for use by projects - WIP)
+- used by
+    - WIP 
+
+cmascience repo (TEMPLATE WIP)
+- used to illustrate interaction between core and dependency repos (public)
+- mimics a simple science based project package 
+- python package (core)
+- WIP extend to template
+- example use only (not for project use)
+- (conversion / extend for use by projects - WIP)
+
+cmasimple repo (TEMPLATE WIP)
+- mimics a very simple python package 
+- allow quick testing and examples of package features
+- python package (core)
 
 
 ---
@@ -58,12 +105,16 @@ cmatools
 Summary
 
 
-| repo | core use | dependency use | wiki \
+| repo            | core use        | dependency use  | wiki            |
 | --------------- | --------------- | --------------- | --------------- |
-| overview  | Row 1 Column 2 | Row 1 Column 3 | no |
-| workflows | Row 2 Column 2 | Row 2 Column 3 | no |
-| cma-training | Row 3 Column 2 | Row 3 Column 3 | Yes |
+| overview        | No              | No              | Yes             |
+| workflows       | No              | Yes             | No              |
+| cma-training    | No              | No              | No              |
+| science-alt     | Yes             | No              | No              |
 
+
+core = used as an independnt python package
+dependency = only used as a dependency to a core package
 
 ---
 
