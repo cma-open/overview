@@ -10,9 +10,9 @@ Use of common dependency repos (tools, cmatools) by exemplar projects (both publ
 ```mermaid
 flowchart TB
  subgraph Public
-    workflows-->cmatools
     workflows
       click workflows "https://github.com/cma-open/workflows" "Link to workflows repo"    
+    workflows-->cmatools 
     cmatools-->cmascience
     cmatools-->simple
     overview
