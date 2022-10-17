@@ -19,6 +19,7 @@ flowchart TB
     overview
       click overview "https://github.com/cma-open/overview" "Link to overview repo"
       click cmascience "https://github.com/cma-open/cmascience" "Link to cmascience repo"
+      click simple "https://github.com/cma-open/simple" "Link to simple repo"
     end
     subgraph Private
     workflows-->tools
@@ -110,7 +111,8 @@ cmascience repo (TEMPLATE WIP)
 - example use only (not for project use)
 - (conversion / extend for use by projects - WIP)
 
-cmasimple repo (TEMPLATE WIP)
+simple repo (TEMPLATE WIP)
+- https://github.com/cma-open/simple
 - mimics a very simple python package 
 - allow quick testing and examples of package features
 - python package (core)
