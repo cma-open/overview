@@ -30,8 +30,8 @@ flowchart TB
 
 # Key documents
 
-- plan
-- other
+- Development plan https://github.com/cma-open/overview/wiki/Development-plan
+- System requirements advice https://github.com/cma-open/overview/wiki/Software-requirements-(generic)
 
 # Organisation repository list and contents
 
@@ -123,11 +123,6 @@ Summary
 - dependency = only used as a dependency to a core package
 
 ---
-
-WIP and next steps
-
-science
-- new simple template "science" project
 
 
 
