@@ -105,18 +105,17 @@ cmasimple repo (TEMPLATE WIP)
 Summary
 
 
-| repo            | core use        | dependency use  | wiki            |
-| --------------- | --------------- | --------------- | --------------- |
-| overview        | No              | No              | Yes             |
-| workflows       | No              | Yes             |                 |
-| cma-training    | No              | No              |                 |
-| science-alt     | Yes             | No              |                 |
-| science         | Yes             | No              |                 |
-| tools           | No              | Yes             |                 |
-| cmatools        | No              | Yes             | Yes             |
-| cmatools        | No              | Yes             |                 |
-| simple          | Yes             | No              |                 |
-
+| repo            | core use        | dependency use  | wiki            | template |
+| --------------- | --------------- | --------------- | --------------- | -------  |
+| overview        |                 |                 | Yes             |          |
+| workflows       |                 | Yes             |                 |          |
+| cma-training    |                 |                 |                 |          |
+| science-alt     | Yes             |                 |                 |          |
+| science         | Yes             |                 |                 |          |
+| tools           |                 | Yes             |                 |          |
+| cmadata         |                 | Yes             |                 |  WIP     |
+| cmatools        |                 | Yes             | Yes             |  WIP     |
+| simple          | Yes             |                 |                 |  WIP     |
 
 
 - core = used as an independnt python package
