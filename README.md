@@ -15,6 +15,7 @@ flowchart TB
     workflows-->cmatools
     cmatools-->cmascience
     cmatools-->simple
+    click cmatools "https://github.com/cma-open/cmatools" "Link to cmatools"
     overview
       click overview "https://github.com/cma-open/overview" "Link to overview repo"
     end
