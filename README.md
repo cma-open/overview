@@ -108,13 +108,19 @@ Summary
 | repo            | core use        | dependency use  | wiki            |
 | --------------- | --------------- | --------------- | --------------- |
 | overview        | No              | No              | Yes             |
-| workflows       | No              | Yes             | No              |
-| cma-training    | No              | No              | No              |
-| science-alt     | Yes             | No              | No              |
+| workflows       | No              | Yes             |                 |
+| cma-training    | No              | No              |                 |
+| science-alt     | Yes             | No              |                 |
+| science         | Yes             | No              |                 |
+| tools           | No              | Yes             |                 |
+| cmatools        | No              | Yes             | Yes             |
+| cmatools        | No              | Yes             |                 |
+| simple          | Yes             | No              |                 |
 
 
-core = used as an independnt python package
-dependency = only used as a dependency to a core package
+
+- core = used as an independnt python package
+- dependency = only used as a dependency to a core package
 
 ---
 
