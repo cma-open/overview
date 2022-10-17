@@ -24,6 +24,7 @@ flowchart TB
       click science-alt "https://github.com/cma-open/science-alt" "Link to scient-alt repo"
     tools-->science
     click science "https://github.com/cma-open/science" "Link to science repo"
+    click tools "https://github.com/cma-open/tools" "Link to science repo"
     cma-training
       click cma-training "https://github.com/cma-open/cma-training" "Link to training repo"
     tools-->cmadata
@@ -68,6 +69,7 @@ science repo
 - example use only (not for project use)
 
 tools repo
+- https://github.com/cma-open/tools
 - used to illustrate interaction between core and dependency repos (private)
 - simple python package (dependency)
 - not for use as an independant package
