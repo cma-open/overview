@@ -27,10 +27,10 @@ flowchart TB
     tools-->science
     click science "https://github.com/cma-open/science" "Link to science repo"
     click tools "https://github.com/cma-open/tools" "Link to science repo"
-    cma-training
-      click cma-training "https://github.com/cma-open/cma-training" "Link to training repo"
     tools-->cmadata
     click cmadata "https://github.com/cma-open/cmadata" "Link to cmadata repo"
+    cma-training
+      click cma-training "https://github.com/cma-open/cma-training" "Link to training repo"
     end
 ```
 
