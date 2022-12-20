@@ -116,6 +116,7 @@ simple repo (TEMPLATE WIP)
 - mimics a very simple python package 
 - allow quick testing and examples of package features
 - python package (core)
+- no GitHub pages site
 
 
 ---
@@ -123,18 +124,18 @@ simple repo (TEMPLATE WIP)
 Summary
 
 
-| repo            | core use        | dependency use  | wiki            | template |
-| --------------- | --------------- | --------------- | --------------- | -------  |
-| overview        |                 |                 | Yes             |          |
-| workflows       |                 | Yes             |                 |          |
-| cma-training    |                 |                 |                 |          |
-| science-alt     | Yes             |                 |                 |          |
-| science         | Yes             |                 |                 |          |
-| tools           |                 | Yes             |                 |          |
-| cmadata         |                 | Yes             |                 |  WIP     |
-| cmascience      |                 | Yes             | WIP             |  WIP     |
-| cmatools        |                 | Yes             | Yes             |  WIP     |
-| simple          | Yes             |                 |                 |  WIP     |
+| repo            | core use        | dependency use  | wiki         | template | GH page? |
+| --------------- | --------------- | --------------- | ------------ | -------  | -------- |
+| overview        |                 |                 | Yes          |          |          |
+| workflows       |                 | Yes             |              |          |          |
+| cma-training    |                 |                 |              |          |          |
+| science-alt     | Yes             |                 |              |          |          |
+| science         | Yes             |                 |              |          |          | 
+| tools           |                 | Yes             |              |          |          |
+| cmadata         |                 | Yes             |              |  WIP     |          |
+| cmascience      |                 | Yes             | WIP          |  WIP     |          |
+| cmatools        |                 | Yes             | Yes          |  WIP     |    Yes   |
+| simple          | Yes             |                 |              |  WIP     |          |
 
 
 - core = used as an independnt python package
