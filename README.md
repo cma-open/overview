@@ -140,7 +140,7 @@ Summary
 
 | repo            | core use        | dependency use  | wiki         | template | GH page? | env-env | unique env | Status |
 | --------------- | --------------- | --------------- | ------------ | -------  | -------- | ------- | ---------- | ------ |
-| overview        |                 |                 | Yes          |          |          |         |            | Active |
+| overview        |                 |                 | Yes          |          |          |   N/A   | N/A        | Active |
 | workflows       |                 | Yes             |              |          |          |         |            | |
 | cma-training    |                 |                 |              |          |          |         |            | |
 | science-alt     | Yes             |                 |              |          |          |         |            | |
@@ -149,8 +149,10 @@ Summary
 | cmadata         |                 | Yes             |              |  WIP     |          |         |            | |
 | cmascience      |                 | Yes             | WIP          |  WIP     |          |         |            | |
 | cmatools        |                 | Yes             | Yes          |  WIP     |    Yes   |         |            | |
-| simple          | Yes             |                 |              |  WIP     |          |         |            | |
+| simple          | Yes             |                 |              |  WIP     |          |         | simple-env | |
 | project         |                 |                 |              |          |          |   Yes   |            | |
+| environment     |                 |                 |              |          |          |   Yes   |            | |
+| scripts         |                 |                 |              |          |          |         |            | |
 
 
 - core = used as an independent python package
