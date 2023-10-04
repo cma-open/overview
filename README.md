@@ -118,6 +118,22 @@ cmadata repo  (private)
 - used by
     - WIP 
 
+
+---
+
+# Relationships between python package and environment
+
+Two main situations exist.
+
+1. The code repo manages the python package and also manages the environment setup and maintenance
+- e.g. repos
+    - 1,2,3 (TODO) 
+
+2. Code is managed in seperate repos for the particular python package and a seperate code environment
+- e.g.
+   - 4,5,6 
+
+
 ---
 
 Summary
