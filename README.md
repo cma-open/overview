@@ -138,22 +138,24 @@ Two main situations exist.
 
 Summary
 
-| repo            | core use        | dependency use  | wiki         | template | GH page? |
-| --------------- | --------------- | --------------- | ------------ | -------  | -------- |
-| overview        |                 |                 | Yes          |          |          |
-| workflows       |                 | Yes             |              |          |          |
-| cma-training    |                 |                 |              |          |          |
-| science-alt     | Yes             |                 |              |          |          |
-| science         | Yes             |                 |              |          |          | 
-| tools           |                 | Yes             |              |          |          |
-| cmadata         |                 | Yes             |              |  WIP     |          |
-| cmascience      |                 | Yes             | WIP          |  WIP     |          |
-| cmatools        |                 | Yes             | Yes          |  WIP     |    Yes   |
-| simple          | Yes             |                 |              |  WIP     |          |
+| repo            | core use        | dependency use  | wiki         | template | GH page? | env-env | unique env | Status |
+| --------------- | --------------- | --------------- | ------------ | -------  | -------- | ------- | ---------- | ------ |
+| overview        |                 |                 | Yes          |          |          |         |            | Active |
+| workflows       |                 | Yes             |              |          |          |         |            | |
+| cma-training    |                 |                 |              |          |          |         |            | |
+| science-alt     | Yes             |                 |              |          |          |         |            | |
+| science         | Yes             |                 |              |          |          |         |            | |
+| tools           |                 | Yes             |              |          |          |         |            | |
+| cmadata         |                 | Yes             |              |  WIP     |          |         |            | |
+| cmascience      |                 | Yes             | WIP          |  WIP     |          |         |            | |
+| cmatools        |                 | Yes             | Yes          |  WIP     |    Yes   |         |            | |
+| simple          | Yes             |                 |              |  WIP     |          |         |            | |
+| project         |                 |                 |              |          |          |   Yes   |            | |
 
 
-- core = used as an independnt python package
+- core = used as an independent python package
 - dependency = only used as a dependency to a core package
+- status = Active / WIP / Retired
 
 ---
 
