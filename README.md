@@ -138,21 +138,22 @@ Two main situations exist.
 
 Summary
 
-| repo            | core use        | dependency use  | wiki         | template | GH page? | env-env | unique env | Status |
-| --------------- | --------------- | --------------- | ------------ | -------  | -------- | ------- | ---------- | ------ |
-| overview        |                 |                 | Yes          |          |          |   N/A   | N/A        | Active |
-| workflows       |                 | Yes             |              |          |          |         |            | |
-| cma-training    |                 |                 |              |          |          |         |            | |
-| science-alt     | Yes             |                 |              |          |          |         |            | |
-| science         | Yes             |                 |              |          |          |         |            | |
-| tools           |                 | Yes             |              |          |          |         |            | |
-| cmadata         |                 | Yes             |              |  WIP     |          |         |            | |
-| cmascience      |                 | Yes             | WIP          |  WIP     |          |         |            | |
-| cmatools        |                 | Yes             | Yes          |  WIP     |    Yes   |         |            | |
-| simple          | Yes             |                 |              |  WIP     |          |         | simple-env | |
-| project         |                 |                 |              |          |          |   Yes   |            | |
-| environment     |                 |                 |              |          |          |   Yes   |            | |
-| scripts         |                 |                 |              |          |          |         |            | |
+| repo            | core  | dependency | wiki     | template | GH page? | env name     | env type   | Status |
+| --------------- | ----- | ---------- | -------- | -------  | -------- | ------------ | ---------- | ------ |
+| overview        |       |            | Yes      |          |          |   N/A        | N/A        | Active |
+| workflows       |       | Yes        |          |          |          |              |            | |
+| cma-training    |       |            |          |          |          |              |            | |
+| science-alt     | Yes   |            |          |          |          |              |            | |
+| science         | Yes   |            |          |          |          |              |            | |
+| tools           |       | Yes        |          |          |          |              |            | |
+| cmadata         |       | Yes        |          |  WIP     |          |              |            | |
+| cmascience      |       | Yes        | WIP      |  WIP     |          |              |            | |
+| cmatools        |       | Yes        | Yes      |  WIP     |    Yes   |              |            | |
+| simple          | Yes   |            | No       |  WIP     |          | simple-env   | conda      | |
+| project         |       |            |          |          |          |   check      |            | |
+| environment     |       |            |          |          |          |   check      |            | |
+| scripts         |       |            |          |          |          |              |            | |
+| individual      | Yes   |            | No       |  No      |    N     |individual-env| venv       | WIP |
 
 
 - core = used as an independent python package
