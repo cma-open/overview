@@ -118,6 +118,15 @@ cmadata repo  (private)
 - used by
     - WIP 
 
+individual repo (public)
+- https://github.com/cma-open/individual
+- A basic python package that includes environment management within an individual code repository
+- Installable python package (pyproject.toml, no setup.py)
+- Simple tests and code example to show high test coverage and code style checks
+- Automated testing via GitHub actions workflows
+- Virtualenv and dependabot via requirements.txt (not conda)
+- No GitHub pages site
+- No repo wiki
 
 ---
 
@@ -140,25 +149,27 @@ Summary
 
 | repo            | core  | dependency | wiki     | template | GH page? | env name     | env type   | Status |
 | --------------- | ----- | ---------- | -------- | -------  | -------- | ------------ | ---------- | ------ |
-| overview        |       |            | Yes      |          |          |   N/A        | N/A        | Active |
-| workflows       |       | Yes        |          |          |          |              |            | |
-| cma-training    |       |            |          |          |          |              |            | |
-| science-alt     | Yes   |            |          |          |          |              |            | |
-| science         | Yes   |            |          |          |          |              |            | |
-| tools           |       | Yes        |          |          |          |              |            | |
-| cmadata         |       | Yes        |          |  WIP     |          |              |            | |
-| cmascience      |       | Yes        | WIP      |  WIP     |          |              |            | |
-| cmatools        |       | Yes        | Yes      |  WIP     |    Yes   |              |            | |
-| simple          | Yes   |            | No       |  WIP     |          | simple-env   | conda      | |
-| project         |       |            |          |          |          |   check      |            | |
-| environment     |       |            |          |          |          |   check      |            | |
-| scripts         |       |            |          |          |          |              |            | |
-| individual      | Yes   |            | No       |  No      |    N     |individual-env| venv       | WIP |
+| overview        |       |            | Yes      |          |          |   N/A        | N/A        | Stable |
+| workflows       |       | Yes        |          |          |          |              |            | WIP |
+| cma-training    |       |            |          |          |          |              |            | WIP |
+| science-alt     | Yes   |            |          |          |          |              |            | WIP |
+| science         | Yes   |            |          |          |          |              |            | WIP |
+| tools           |       | Yes        |          |          |          |              |            | WIP |
+| cmadata         |       | Yes        |          |  WIP     |          |              |            | WIP |
+| cmascience      |       | Yes        | WIP      |  WIP     |          |              |            | WIP |
+| cmatools        |       | Yes        | Yes      |  WIP     |    Yes   |              |            | WIP |
+| simple          | Yes   |            | No       |  WIP     |          | simple-env   | conda      | WIP |
+| project         |       |            |          |          |          |   check      |            | WIP |
+| environment     |       |            |          |          |          |   check      |            | WIP |
+| scripts         |       |            |          |          |          |              |            | WIP |
+| individual      | Yes   |            | No       |  No      |    N     |individual-env| venv       | Stable |
 
 
 - core = used as an independent python package
 - dependency = only used as a dependency to a core package
-- status = Active / WIP / Retired
+- status = Stable / WIP
+    - Stable indicates ready for use and no pending high priority development or bug fixes are required
+    - WIP indicates not yet ready for use and high priority new features or bug fixes are still required 
 
 ---
 
