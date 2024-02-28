@@ -147,7 +147,7 @@ Two main situations exist.
 
 Summary - project planning and testing
 
-| repo (*) template |  wiki  | GH pages? | Status |
+| repo              |  wiki  | GH pages? | Status |
 | ----------------- |  ----- | --------- | ------ |
 | overview          |  Yes   |   No      | Stable |
 | cma-training      |  No    |   No      | WIP    |
@@ -168,7 +168,7 @@ Summary - code repos
 | environment       | dependency         |          |          |   check      |            |            | WIP    |
 | scripts           | dependency         |          |          |              |            |            | WIP    |
 
-- * = available as a templte repo (WIP)
+- (*) = available as a template repo (WIP)
 - main = used as an independent python package
 - dependency = only used as a dependency to a main package, not used directly
 - status = Stable / WIP
