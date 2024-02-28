@@ -145,28 +145,32 @@ Two main situations exist.
 
 ---
 
-Summary
+Summary - project planning and testing
 
-| repo            | core  | dependency | wiki     | template | GH page? | env name     | env type   | Status |
-| --------------- | ----- | ---------- | -------- | -------  | -------- | ------------ | ---------- | ------ |
-| overview        |       |            | Yes      |          |          |   N/A        | N/A        | Stable |
-| workflows       |       | Yes        |          |          |          |              |            | WIP |
-| cma-training    |       |            |          |          |          |              |            | WIP |
-| science-alt     | Yes   |            |          |          |          |              |            | WIP |
-| science         | Yes   |            |          |          |          |              |            | WIP |
-| tools           |       | Yes        |          |          |          |              |            | WIP |
-| cmadata         |       | Yes        |          |  WIP     |          |              |            | WIP |
-| cmascience      |       | Yes        | WIP      |  WIP     |          |              |            | WIP |
-| cmatools        |       | Yes        | Yes      |  WIP     |    Yes   |              |            | WIP |
-| simple          | Yes   |            | No       |  WIP     |          | simple-env   | conda      | WIP |
-| project         |       |            |          |          |          |   check      |            | WIP |
-| environment     |       |            |          |          |          |   check      |            | WIP |
-| scripts         |       |            |          |          |          |              |            | WIP |
-| individual      | Yes   |            | No       |  No      |    N     |individual-env| venv       | Stable |
+| repo (*) template |  wiki  | GH pages? | Status |
+| ----------------- |  ----- | --------- | ------ |
+| overview          |  Yes   |   No      | Stable |
+| cma-training      |  No    |   No      | WIP    |
 
+Summary - code repos
 
-- core = used as an independent python package
-- dependency = only used as a dependency to a core package
+| repo (*) template | main or dependency | wiki     | GH pages? | env name    | env type   | Features   | Status |
+| ----------------- | ------------------ | -------- | -------- | ------------ | ---------- | ---------- | ------ |
+| science-alt       | main               |          |          |              |            |            | WIP    |
+| science           | main               |          |          |              |            |            | WIP    |
+| simple (*)        | main               | No       |          | simple-env   | conda      |            | WIP    |
+| individual        | main               | No       |    N     |individual-env| venv       | dependabot | Stable |
+| workflows         | dependency         |          |          |              |            |            | WIP    |
+| tools             |  dependency        |          |          |              |            |            | WIP    |
+| cmadata (*)       |  dependency        |          |          |              |            |            | WIP    |
+| cmascience (*)    |  dependency        | WIP      |          |              |            |            | WIP    |
+| cmatools (*)      |  dependenc         | Yes      |    Yes   |              |            |            | WIP    |
+| environment       | dependency         |          |          |   check      |            |            | WIP    |
+| scripts           | dependency         |          |          |              |            |            | WIP    |
+
+- * = available as a templte repo (WIP)
+- main = used as an independent python package
+- dependency = only used as a dependency to a main package, not used directly
 - status = Stable / WIP
     - Stable indicates ready for use and no pending high priority development or bug fixes are required
     - WIP indicates not yet ready for use and high priority new features or bug fixes are still required 
