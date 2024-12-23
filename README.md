@@ -113,7 +113,9 @@ simple repo (TEMPLATE WIP)  (public)
 - mimics a very simple python package 
 - allow quick testing and examples of package features
 - python package (core)
-- no GitHub pages site
+- within rep conda env file, scripts and workflows
+- no links to other repos
+- no GitHub pages site, no wiki
 
 
 ## Other repos
@@ -180,16 +182,16 @@ Repo status notes
 
 | repo (*) template | Notes              |  Status | Updated   | Open issues | Priority issues |
 | ----------------- | ------------------ |  ------ | --------- | ----------- | --------------- |
-| cmadata (*)       |  dependency        |  WIP    | |  |  |
-| cmascience (*)    |  dependency        |  WIP    | |  | |
-| cmatools (*)      |  dependenc         |  WIP    | |  | |
+| cmadata (*)       |  Example data creation repo                     |  WIP    | Dec, 2024 | -  | Low  |
+| cmascience (*)    |  Example core repo that uses cmatools           |  WIP    | Dec, 2024 | 18 | High |
+| cmatools (*)      |  Example common tools/func/commands, used by core repos |  WIP  | Dec, 2024 | 52  | High |
 |                   |                    |         |  |  | |
-| environment       | dependency         |  WIP    | |  | |
-| scripts           | dependency         |  WIP    | |  | |
-| workflows         | dependency         |  WIP    |  |  | |
+| environment       | Conda environment files for use by other repos  |  WIP    | Dec, 2024 | - | High |
+| scripts           | Shell scripts for use by other repos            |  WIP    | Dec, 2024 | - | High |
+| workflows         | Action workflows for use by other repos         |  WIP    | Dec, 2024 | 1 | High |
 |                   |                    |         |  |  | |
-| simple (*)        | main               |  WIP    |  |  | |
-| individual        | main               |  Stable |  Dec, 2024 | 9 | Low |
+| simple (*)        | Self-contained repo for quick test development  |  WIP    | Dec, 2024  | 26  | High |
+| individual        | Basic repo using venvs not conda                |  Stable |  Dec, 2024 | 9 | Low |
 |                   |                    |         |  |  | |
 | cma-training      | Couse notes, code examples   |  Paused | Dec, 2024  | 3 | Low |
 
