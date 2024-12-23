@@ -133,14 +133,16 @@ cma-training repo  (private)
 
 Two main situations exist.
 
-1. The code repo manages the python package and also manages the environment setup and maintenance
-- e.g. repos
-    - 1,2,3 (TODO) 
+1. The code in the repo manages the python package and also manages the environment setup and maintenance (conda or venv)
+- e.g. 
+    - simple
+    - individual
 
 2. Code is managed in seperate repos for the particular python package and a seperate code environment
 - e.g.
-   - 4,5,6 
-
+   - cmadata
+   - cmascience
+   - cmatools
 
 ---
 
@@ -181,7 +183,7 @@ Repo status notes
 
 | repo (*) template | Notes              |  Status | Updated   | Open issues | Priority issues |
 | ----------------- | ------------------ |  ------ | --------- | ----------- | --------------- |
-| cmadata (*)       |  Example data creation repo                     |  WIP    | Dec, 2024 | -  | Low  |
+| cmadata (*)       |  Example data creation repo                     |  Paused    | Dec, 2024 | -  | Low  |
 | cmascience (*)    |  Example core repo that uses cmatools           |  WIP    | Dec, 2024 | 18 | High |
 | cmatools (*)      |  Example common tools/func/commands, used by core repos |  WIP  | Dec, 2024 | 52  | High |
 |                   |                    |         |  |  | |
@@ -193,6 +195,17 @@ Repo status notes
 | individual        | Basic repo using venvs not conda                |  Stable |  Dec, 2024 | 9 | Low |
 |                   |                    |         |  |  | |
 | cma-training      | Couse notes, code examples   |  Paused | Dec, 2024  | 3 | Low |
+
+---
+
+Immediate next steps
+
+- filter down issues and get cmascience working with cmatools
+- clearly label some issues in these two repos to work on later
+- create and use environment repo
+- create and use workflows repo
+- create and use scripts repo
+
 
 
 
