@@ -156,14 +156,16 @@ Summary - code repos
 
 | repo (*) template | main or dependency | wiki     | GH pages? | env name    | env type   | Features   |
 | ----------------- | ------------------ | -------- | -------- | ------------ | ---------- | ---------- |
-| simple (*)        | main               | No       |          | simple-env   | conda      |            |
-| individual        | main               | No       |    N     |individual-env| venv       | dependabot |
-| workflows         | dependency         |          |          |              |            |            |
 | cmadata (*)       |  dependency        |          |          |              |            |            |
 | cmascience (*)    |  dependency        | WIP      |          |              |            |            |
 | cmatools (*)      |  dependenc         | Yes      |    Yes   |              |            |            |
+|                   |                    |          |          |              |            |            |
 | environment       | dependency         |          |          |   check      |            |            | 
 | scripts           | dependency         |          |          |              |            |            | 
+| workflows         | dependency         |          |          |              |            |            |
+|                   |                    |          |          |              |            |            |
+| simple (*)        | main               | No       |          | simple-env   | conda      |            |
+| individual        | main               | No       |    N     |individual-env| venv       | dependabot |
 
 - (*) = available as a template repo (WIP)
 - main = used as an independent python package
@@ -178,14 +180,17 @@ Repo status notes
 
 | repo (*) template | Notes              |  Status | Updated   | Open issues |
 | ----------------- | ------------------ |  ------ | --------- | ----------- |
-| simple (*)        | main               |  WIP    |  |  |
-| individual        | main               |  Stable |  Dec, 2024 | 9 |
-| workflows         | dependency         |  WIP    |  |  |
 | cmadata (*)       |  dependency        |  WIP    | |  | 
 | cmascience (*)    |  dependency        |  WIP    | |  |
 | cmatools (*)      |  dependenc         |  WIP    | |  |
+|                   |                    |         |  |  |
 | environment       | dependency         |  WIP    | |  |
 | scripts           | dependency         |  WIP    | |  |
+| workflows         | dependency         |  WIP    |  |  |
+|                   |                    |         |  |  |
+| simple (*)        | main               |  WIP    |  |  |
+| individual        | main               |  Stable |  Dec, 2024 | 9 |
+|                   |                    |         |  |  |
 | cma-training      | Couse notes, code examples   |  Paused |  |
 
 
