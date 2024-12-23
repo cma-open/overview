@@ -29,6 +29,8 @@ flowchart TB
       click cmascience "https://github.com/cma-open/cmascience" "Link to cmascience repo"
     simple
       click simple "https://github.com/cma-open/simple" "Link to simple repo"
+    individual
+      click individual "https://github.com/cma-open/individual" "Link to individual repo"
     end
     subgraph Private
     cmadata
