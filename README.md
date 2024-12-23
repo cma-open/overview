@@ -13,6 +13,15 @@ flowchart TB
     workflows
       click workflows "https://github.com/cma-open/workflows" "Link to workflows repo"
     workflows-->cmatools
+    workflows-->cmascience
+    environment
+      click environment "https://github.com/cma-open/environment" "Link to environment repo"
+    environment-->cmatools
+    environment-->cmascience
+    scripts
+      click environment "https://github.com/cma-open/scripts" "Link to scripts repo"
+    scripts-->cmatools
+    scripts--.cmascience
     cmatools-->cmascience
     click cmatools "https://github.com/cma-open/cmatools" "Link to cmatools"
     overview
