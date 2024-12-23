@@ -19,9 +19,9 @@ flowchart TB
     environment-->cmatools
     environment-->cmascience
     scripts
-      click environment "https://github.com/cma-open/scripts" "Link to scripts repo"
+      click scripts "https://github.com/cma-open/scripts" "Link to scripts repo"
     scripts-->cmatools
-    scripts--.cmascience
+    scripts-->cmascience
     cmatools-->cmascience
     click cmatools "https://github.com/cma-open/cmatools" "Link to cmatools"
     overview
