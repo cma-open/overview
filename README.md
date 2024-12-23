@@ -177,6 +177,24 @@ Summary - code repos
 
 ---
 
+Repo status notes
+
+| repo (*) template | Notes              |  Status |
+| ----------------- | ------------------ |  ------ |
+| science-alt       | main               |  WIP    |
+| science           | main               |  WIP    |
+| simple (*)        | main               |  WIP    |
+| individual        | main               |  Stable |
+| workflows         | dependency         |  WIP    |
+| tools             |  dependency        |  WIP    |
+| cmadata (*)       |  dependency        |  WIP    |
+| cmascience (*)    |  dependency        |  WIP    |
+| cmatools (*)      |  dependenc         |  WIP    |
+| environment       | dependency         |  WIP    |
+| scripts           | dependency         |  WIP    |
+
+
+
 
 
 
