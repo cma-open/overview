@@ -65,12 +65,9 @@ cmatools repo (TEMPLATE WIP)  (public)
 - python package hosting commonly used tools (dependency)
 - not for use as an independant package 
 - acts as a template (easily create new repos with this structure and starting content)
-- example use only (not for project use)
-- (conversion / extend for use by projects - WIP)
 - used by 
     - cmadata
     - cmascience
-    - camsimple
 
 cmascience repo (TEMPLATE WIP)  (public)
 - https://github.com/cma-open/cmascience
@@ -78,19 +75,12 @@ cmascience repo (TEMPLATE WIP)  (public)
 - mimics a simple science based project package 
 - python package (core)
 - WIP extend to template
-- example use only (not for project use)
-- (conversion / extend for use by projects - WIP)
-
 
 cmadata repo  (private)
 - https://github.com/cma-open/cmadata
 - used to provide synthetic data for testing or development
-- python package (core or dependency)
+- python package (core)
 - can be used as an independant package
-- example use only (not for project use)
-- (conversion / extend for use by projects - WIP)
-- used by
-    - WIP 
 
 ## Supporting and shared repos
 
@@ -128,7 +118,6 @@ simple repo (TEMPLATE WIP)  (public)
 - no links to other repos
 - no GitHub pages site, no wiki
 
-
 ## Other repos
 
 cma-training repo  (private)
@@ -137,7 +126,6 @@ cma-training repo  (private)
 - hosts code snippets
 - function, class and module code examples
 - (PAUSED) kept as long term reference
-
 
 ---
 
