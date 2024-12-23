@@ -36,7 +36,9 @@ flowchart TB
 - Development plan https://github.com/cma-open/overview/wiki/Development-plan
 - System requirements advice https://github.com/cma-open/overview/wiki/Software-requirements-(generic)
 
-# Organisation repository list and contents
+# Repository list and contents
+
+## Overview
 
 Overview repo  (public)
 - https://github.com/cma-open/overview
@@ -44,9 +46,7 @@ Overview repo  (public)
 - independant from other repos
 - host development plan in the wiki
 
-Workflows repo  (public)
-- https://github.com/cma-open/workflows
-- used to provide shared action workflows to other repos
+## Key code repos
 
 cmatools repo (TEMPLATE WIP)  (public)
 - https://github.com/cma-open/cmatools
@@ -70,12 +70,6 @@ cmascience repo (TEMPLATE WIP)  (public)
 - example use only (not for project use)
 - (conversion / extend for use by projects - WIP)
 
-simple repo (TEMPLATE WIP)  (public)
-- https://github.com/cma-open/simple
-- mimics a very simple python package 
-- allow quick testing and examples of package features
-- python package (core)
-- no GitHub pages site
 
 cmadata repo  (private)
 - https://github.com/cma-open/cmadata
@@ -87,6 +81,22 @@ cmadata repo  (private)
 - used by
     - WIP 
 
+## Supporting and shared repos
+
+environment repo  (public)
+- https://github.com/cma-open/environment
+- used to provide shared conda environment to other repos
+
+scripts repo  (public)
+- https://github.com/cma-open/scripts
+- used to provide shared shell scripts to other repos
+
+workflows repo  (public)
+- https://github.com/cma-open/workflows
+- used to provide shared action workflows to other repos
+
+## Simple or minimal repos
+
 individual repo (public)
 - https://github.com/cma-open/individual
 - A basic python package that includes environment management within an individual code repository
@@ -97,6 +107,15 @@ individual repo (public)
 - No GitHub pages site
 - No repo wiki
 
+simple repo (TEMPLATE WIP)  (public)
+- https://github.com/cma-open/simple
+- mimics a very simple python package 
+- allow quick testing and examples of package features
+- python package (core)
+- no GitHub pages site
+
+
+## Other repos
 
 cma-training repo  (private)
 - https://github.com/cma-open/cma-training
