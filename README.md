@@ -105,7 +105,7 @@ individual repo (public)
 - Simple tests and code example to show high test coverage and code style checks (Codacy, CodeQL, MS Defender)
 - Automated testing via GitHub actions workflows
 - Virtualenv and dependabot via requirements.txt (not conda)
-- Include test bade and link to open repo summary code scores
+- Include test badge and link to open repo summary code scores
 - No GitHub pages site
 - No repo wiki
 
