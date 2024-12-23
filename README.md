@@ -178,20 +178,20 @@ Summary - code repos
 
 Repo status notes
 
-| repo (*) template | Notes              |  Status | Updated   | Open issues |
-| ----------------- | ------------------ |  ------ | --------- | ----------- |
-| cmadata (*)       |  dependency        |  WIP    | |  | 
-| cmascience (*)    |  dependency        |  WIP    | |  |
-| cmatools (*)      |  dependenc         |  WIP    | |  |
-|                   |                    |         |  |  |
-| environment       | dependency         |  WIP    | |  |
-| scripts           | dependency         |  WIP    | |  |
-| workflows         | dependency         |  WIP    |  |  |
-|                   |                    |         |  |  |
-| simple (*)        | main               |  WIP    |  |  |
-| individual        | main               |  Stable |  Dec, 2024 | 9 |
-|                   |                    |         |  |  |
-| cma-training      | Couse notes, code examples   |  Paused |  |
+| repo (*) template | Notes              |  Status | Updated   | Open issues | Priority issues |
+| ----------------- | ------------------ |  ------ | --------- | ----------- | --------------- |
+| cmadata (*)       |  dependency        |  WIP    | |  |  |
+| cmascience (*)    |  dependency        |  WIP    | |  | |
+| cmatools (*)      |  dependenc         |  WIP    | |  | |
+|                   |                    |         |  |  | |
+| environment       | dependency         |  WIP    | |  | |
+| scripts           | dependency         |  WIP    | |  | |
+| workflows         | dependency         |  WIP    |  |  | |
+|                   |                    |         |  |  | |
+| simple (*)        | main               |  WIP    |  |  | |
+| individual        | main               |  Stable |  Dec, 2024 | 9 | Low |
+|                   |                    |         |  |  | |
+| cma-training      | Couse notes, code examples   |  Paused |  | |
 
 
 
