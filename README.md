@@ -22,14 +22,8 @@ flowchart TB
       click simple "https://github.com/cma-open/simple" "Link to simple repo"
     end
     subgraph Private
-    workflows-->tools
-    tools-->|dependency|science-alt
-      click science-alt "https://github.com/cma-open/science-alt" "Link to scient-alt repo"
-    tools-->science
-    click science "https://github.com/cma-open/science" "Link to science repo"
-    click tools "https://github.com/cma-open/tools" "Link to science repo"
-    tools-->cmadata
-    click cmadata "https://github.com/cma-open/cmadata" "Link to cmadata repo"
+    cmadata
+      click cmadata "https://github.com/cma-open/cmadata" "Link to cmadata repo"
     cma-training
       click cma-training "https://github.com/cma-open/cma-training" "Link to training repo"
     end
@@ -44,13 +38,13 @@ flowchart TB
 
 # Organisation repository list and contents
 
-overview repo  (public)
+Overview repo  (public)
 - https://github.com/cma-open/overview
 - used for project planning and organisation overview
 - independant from other repos
 - host development plan in the wiki
 
-workflows repo  (public)
+Workflows repo  (public)
 - https://github.com/cma-open/workflows
 - used to provide shared action workflows to other repos
 
@@ -83,31 +77,6 @@ simple repo (TEMPLATE WIP)  (public)
 - python package (core)
 - no GitHub pages site
 
-cma-training repo  (private)
-- https://github.com/cma-open/cma-training
-- used to hold code course progress
-- hosts code snippets
-- function, class and module code examples
-
-science-alt repo  (private)
-- https://github.com/cma-open/science-alt
-- used to illustrate interaction between core and dependency repos (private)
-- simple python package (core)
-- example use only (not for project use)
-
-science repo  (private)
-- https://github.com/cma-open/science
-- used to illustrate interaction between core and dependency repos (private)
-- simple python package (core)
-- example use only (not for project use)
-
-tools repo  (private)
-- https://github.com/cma-open/tools
-- used to illustrate interaction between core and dependency repos (private)
-- simple python package (dependency)
-- not for use as an independant package
-- example use only (not for project use)
-
 cmadata repo  (private)
 - https://github.com/cma-open/cmadata
 - used to provide synthetic data for testing or development
@@ -127,6 +96,15 @@ individual repo (public)
 - Virtualenv and dependabot via requirements.txt (not conda)
 - No GitHub pages site
 - No repo wiki
+
+
+cma-training repo  (private)
+- https://github.com/cma-open/cma-training
+- holds course progress notes
+- hosts code snippets
+- function, class and module code examples
+- (PAUSED) kept as long term reference
+
 
 ---
 
@@ -150,18 +128,17 @@ Summary - project planning and testing
 | repo              |  wiki  | GH pages? | Status |
 | ----------------- |  ----- | --------- | ------ |
 | overview          |  Yes   |   No      | Stable |
-| cma-training      |  No    |   No      | WIP    |
+| cma-training      |  No    |   No      | Paused |
+
+---
 
 Summary - code repos
 
 | repo (*) template | main or dependency | wiki     | GH pages? | env name    | env type   | Features   | Status |
 | ----------------- | ------------------ | -------- | -------- | ------------ | ---------- | ---------- | ------ |
-| science-alt       | main               |          |          |              |            |            | WIP    |
-| science           | main               |          |          |              |            |            | WIP    |
 | simple (*)        | main               | No       |          | simple-env   | conda      |            | WIP    |
 | individual        | main               | No       |    N     |individual-env| venv       | dependabot | Stable |
 | workflows         | dependency         |          |          |              |            |            | WIP    |
-| tools             |  dependency        |          |          |              |            |            | WIP    |
 | cmadata (*)       |  dependency        |          |          |              |            |            | WIP    |
 | cmascience (*)    |  dependency        | WIP      |          |              |            |            | WIP    |
 | cmatools (*)      |  dependenc         | Yes      |    Yes   |              |            |            | WIP    |
@@ -181,17 +158,15 @@ Repo status notes
 
 | repo (*) template | Notes              |  Status |
 | ----------------- | ------------------ |  ------ |
-| science-alt       | main               |  WIP    |
-| science           | main               |  WIP    |
 | simple (*)        | main               |  WIP    |
 | individual        | main               |  Stable |
 | workflows         | dependency         |  WIP    |
-| tools             |  dependency        |  WIP    |
 | cmadata (*)       |  dependency        |  WIP    |
 | cmascience (*)    |  dependency        |  WIP    |
 | cmatools (*)      |  dependenc         |  WIP    |
 | environment       | dependency         |  WIP    |
 | scripts           | dependency         |  WIP    |
+| cma-training      | Couse notes, code examples   |  Paused |
 
 
 
