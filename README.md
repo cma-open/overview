@@ -101,9 +101,10 @@ individual repo (public)
 - https://github.com/cma-open/individual
 - A basic python package that includes environment management within an individual code repository
 - Installable python package (pyproject.toml, no setup.py)
-- Simple tests and code example to show high test coverage and code style checks
+- Simple tests and code example to show high test coverage and code style checks (Codacy, CodeQL, MS Defender)
 - Automated testing via GitHub actions workflows
 - Virtualenv and dependabot via requirements.txt (not conda)
+- Include test bade and link to open repo summary code scores
 - No GitHub pages site
 - No repo wiki
 
@@ -153,16 +154,16 @@ Summary - project planning and testing
 
 Summary - code repos
 
-| repo (*) template | main or dependency | wiki     | GH pages? | env name    | env type   | Features   | Status |
-| ----------------- | ------------------ | -------- | -------- | ------------ | ---------- | ---------- | ------ |
-| simple (*)        | main               | No       |          | simple-env   | conda      |            | WIP    |
-| individual        | main               | No       |    N     |individual-env| venv       | dependabot | Stable |
-| workflows         | dependency         |          |          |              |            |            | WIP    |
-| cmadata (*)       |  dependency        |          |          |              |            |            | WIP    |
-| cmascience (*)    |  dependency        | WIP      |          |              |            |            | WIP    |
-| cmatools (*)      |  dependenc         | Yes      |    Yes   |              |            |            | WIP    |
-| environment       | dependency         |          |          |   check      |            |            | WIP    |
-| scripts           | dependency         |          |          |              |            |            | WIP    |
+| repo (*) template | main or dependency | wiki     | GH pages? | env name    | env type   | Features   |
+| ----------------- | ------------------ | -------- | -------- | ------------ | ---------- | ---------- |
+| simple (*)        | main               | No       |          | simple-env   | conda      |            |
+| individual        | main               | No       |    N     |individual-env| venv       | dependabot |
+| workflows         | dependency         |          |          |              |            |            |
+| cmadata (*)       |  dependency        |          |          |              |            |            |
+| cmascience (*)    |  dependency        | WIP      |          |              |            |            |
+| cmatools (*)      |  dependenc         | Yes      |    Yes   |              |            |            |
+| environment       | dependency         |          |          |   check      |            |            | 
+| scripts           | dependency         |          |          |              |            |            | 
 
 - (*) = available as a template repo (WIP)
 - main = used as an independent python package
@@ -175,17 +176,17 @@ Summary - code repos
 
 Repo status notes
 
-| repo (*) template | Notes              |  Status |
-| ----------------- | ------------------ |  ------ |
-| simple (*)        | main               |  WIP    |
-| individual        | main               |  Stable |
-| workflows         | dependency         |  WIP    |
-| cmadata (*)       |  dependency        |  WIP    |
-| cmascience (*)    |  dependency        |  WIP    |
-| cmatools (*)      |  dependenc         |  WIP    |
-| environment       | dependency         |  WIP    |
-| scripts           | dependency         |  WIP    |
-| cma-training      | Couse notes, code examples   |  Paused |
+| repo (*) template | Notes              |  Status | Updated   | Open issues |
+| ----------------- | ------------------ |  ------ | --------- | ----------- |
+| simple (*)        | main               |  WIP    |  |  |
+| individual        | main               |  Stable |  Dec, 2024 | 9 |
+| workflows         | dependency         |  WIP    |  |  |
+| cmadata (*)       |  dependency        |  WIP    | |  | 
+| cmascience (*)    |  dependency        |  WIP    | |  |
+| cmatools (*)      |  dependenc         |  WIP    | |  |
+| environment       | dependency         |  WIP    | |  |
+| scripts           | dependency         |  WIP    | |  |
+| cma-training      | Couse notes, code examples   |  Paused |  |
 
 
 
