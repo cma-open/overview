@@ -201,10 +201,32 @@ Repo status notes
 Immediate next steps
 
 - filter down issues and get cmascience working with cmatools
+- cmatools issues
+    - merge in dev-45-data module PR
+    -   
+- cmascience issues
+    - #23 cli tool for aim 1 
 - clearly label some issues in these two repos to work on later
 - create and use environment repo
 - create and use workflows repo
 - create and use scripts repo
+
+
+New milestone categories accross all repos
+
+1. This Sprint
+2. Next Sprint
+3. Backlog
+4. Parked
+
+
+
+
+
+
+
+
+
 
 
 
