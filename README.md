@@ -191,7 +191,7 @@ Repo status notes
 | simple (*)        | main               |  WIP    |  |  | |
 | individual        | main               |  Stable |  Dec, 2024 | 9 | Low |
 |                   |                    |         |  |  | |
-| cma-training      | Couse notes, code examples   |  Paused |  | |
+| cma-training      | Couse notes, code examples   |  Paused | Dec, 2024  | 3 | Low |
 
 
 
