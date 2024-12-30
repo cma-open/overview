@@ -115,8 +115,21 @@ simple repo (TEMPLATE WIP)  (public)
 - allow quick testing and examples of package features
 - python package (core)
 - within rep conda env file, scripts and workflows
+- uses a "config.ini" file for system settings
 - no links to other repos
 - no GitHub pages site, no wiki
+- CalVer version releases (automated versioning)
+- Commands:
+    -  cli-simple (argparse) Simple analysis on two integers
+    -  create-data-options (argparse) Create data files in datadir
+    -  cli-demo-logs (argparse) Setup demo log files with example log messages (with user options, inc dry-run)
+    -     
+    -  system-version Show system version to log and terminal
+    -  show-loggers Shows (prints) all available loggers to terminal 
+    -  confirm-config Print out current system config settings to terminal
+    -  create-data Create netcdf data file in datadir outputs directory
+    -  clean Removes range of selected, named files from datadir outputs directory
+    -  demo-logs Setup demo log files with example log messages
 
 ## Other repos
 
